@@ -41,8 +41,12 @@ gem 'devise'
 # Javascript library for Gnome / Growl type non-blocking notifications
 gem 'toastr-rails'
 
+# RailsAdmin is a Rails engine that provides an easy-to-use interface for managing your data
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', '>= 1.0.0.rc'
+
+# Control Permissions and Roles
+gem 'cancancan'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
