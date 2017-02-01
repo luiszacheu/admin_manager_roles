@@ -38,6 +38,8 @@ gem 'jbuilder', '~> 2.5'
 # Flexible authentication solution for Rails with Warden
 gem 'devise'
 
+# Javascript library for Gnome / Growl type non-blocking notifications
+gem 'toastr-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
