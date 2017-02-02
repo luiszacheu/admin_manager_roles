@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'welcome/index'
+  get '/dashboard' => "dashboard#index", :as => :dashboard
 
   root 'welcome#index'
 
